@@ -69,7 +69,7 @@ const post_on_twitter = async () => {
 
     // share only name's first word to increase privacy
     const first_name = obituary_to_tweet.name.replace(/ .*/, '')
-    const standard_message = ' left us. \r\n\r\nRemember you will die too.'
+    const standard_message = ' will be missed. \r\n\r\n May this departure inspire you to live well.'
     const tweet_text = first_name.concat(standard_message)
 
     console.log('first name  ', first_name)
